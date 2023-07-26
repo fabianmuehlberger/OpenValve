@@ -1,8 +1,9 @@
 # smartValve
 open source smarthome radiator thermostat
-
-![grafik](https://github.com/fabianmuehlberger/OpenValve/assets/56475821/7c889428-17d9-437c-b150-2571367f6aa9)
-
+<p align="center">
+<img src="/pictures/assambly.png" height = 200>
+<img src="/pictures/assambly_cut.png" height = 200>
+</p>
 
 This project has the goal of developing a open source smarthome valve for radiators. 
 
@@ -20,16 +21,18 @@ This project has the goal of developing a open source smarthome valve for radiat
 * Gearbox - 298:1 gearbox with m3 threaded shaft - bought from Aliexpress
 
 ## Mechanical desing decisions
-The generall idea is to make the mechanical assambly and the program as simple as possible to make it acessible and easy to work with. This is the premise for all design dicisions
-![grafik](https://github.com/fabianmuehlberger/OpenValve/assets/56475821/c62a329e-a6b3-4c2b-894b-fec251305394)
-![grafik](https://github.com/fabianmuehlberger/OpenValve/assets/56475821/3cfd8caa-5fa6-4900-9523-4fa0fa3af897)
+The generall idea is to make the mechanical assambly and the program as simple as possible to make it acessible and easy to work with. This is the premise for all design dicisions   
+<p align="center">
+<img src="/pictures/printed_parts.png" height = 200>
+</p>
 
 A union nut attaches the assambly to the valve itself. 
 The U shaped hanger keeps the motor from rotating, this creates friction and a better solution for it is prefered. 
 
 ### Radiator Valve 
-![radiator_valve_4333-00 301](https://github.com/fabianmuehlberger/OpenValve/assets/56475821/4e502e95-a457-40b2-9c79-d2eba656dd79)
-
+<p align="center">
+<img src="/pictures/valve.png" height = 200>
+</p>
 
 (standard radiator valve, used in austria)
 this sort of valve has a pin with ~2.5mmm travel, this allows for a controlled liquid flow depending on the distance. 
@@ -42,7 +45,10 @@ It is possible to use other drivers, but this board from polulu is cheap and the
 ### Gearbox
 With the use of a DC motor running on low voltage, a high reduction gearbox is needed.   
 
-![grafik](https://github.com/fabianmuehlberger/OpenValve/assets/56475821/9c99c1f2-ed39-4d56-9aa9-81f408fc2f7d)   
+
+<p align="center">
+<img src="/pictures/n20_motor_with_gearbox.png" height = 200>
+</p>
 
 (n20 gearbox Motor with m3 shaft)
 Using this kind of shaft allows the use of a m3 embedded brass nut in the 3d print to convert the rotation to linear motion. 
