@@ -20,12 +20,12 @@ This project has the goal of developing a open source smarthome valve for radiat
 * [Driver](https://www.pololu.com/product/2990) - Polulu DRV8838
 * Gearbox - 298:1 gearbox with m3 threaded shaft - bought from Aliexpress
 
-## Mechanical desing decisions
+## Mechanical desing
 The generall idea is to make the mechanical assambly and the program as simple as possible to make it acessible and easy to work with. This is the premise for all design dicisions   
 <p align="center">
 <img src="/pictures/printed_parts.png" height = 200>
 </p>
-
+[Fusion360 project](https://a360.co/473V7g9)
 A union nut attaches the assambly to the valve itself. 
 The U shaped hanger keeps the motor from rotating, this creates friction and a better solution for it is prefered. 
 
