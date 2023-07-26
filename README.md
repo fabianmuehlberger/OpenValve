@@ -14,10 +14,10 @@ This project has the goal of developing a open source smarthome valve for radiat
 
 
 ##  COMPONENTS
-* MCU - ESP32S3, currently using a Lilygo TQ-T Pro (ESP32-S3 4mb flash 2 mb psram)
-* Motor - Using Adafruit N20 DC Motor with encoder 
-* Driver - Polulu DRV8838
-* Gearbox - 298:1 gearbox with m3 threaded shaft
+* [MCU](https://www.lilygo.cc/products/t-qt-pro) - ESP32S3, currently using a Lilygo TQ-T Pro (ESP32-S3 4mb flash 2 mb psram)
+* [Motor](https://www.adafruit.com/product/4641) - Using Adafruit N20 DC Motor with encoder 
+* [Driver](https://www.pololu.com/product/2990) - Polulu DRV8838
+* Gearbox - 298:1 gearbox with m3 threaded shaft - bought from Aliexpress
 
 ## Mechanical desing decisions
 The generall idea is to make the mechanical assambly and the program as simple as possible to make it acessible and easy to work with. This is the premise for all design dicisions
