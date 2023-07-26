@@ -25,8 +25,6 @@ The generall idea is to make the mechanical assambly and the program as simple a
 <p align="center">
 <img src="/pictures/printed_parts.png" height = 200>
 </p>   
-
-[Fusion360_project](https://a360.co/473V7g9)
 A union nut attaches the assambly to the valve itself. 
 The U shaped hanger keeps the motor from rotating, this creates friction and a better solution for it is prefered. 
 
@@ -55,7 +53,12 @@ With the use of a DC motor running on low voltage, a high reduction gearbox is n
 Using this kind of shaft allows the use of a m3 embedded brass nut in the 3d print to convert the rotation to linear motion. 
 
 ### 3D printed pars
-OpenValve is designed to have 3d printed parts that are printable with a standard FTM printer with no supports and assambled with m3 bolts and buts. 
+OpenValve is designed to have 3d printed parts that are printable with a standard FTM printer with no supports and assambled with m3 bolts and buts.    
+
+[Fusion360_project](https://a360.co/473V7g9)
+
+
+
 
 
 ## SOFTWARE
