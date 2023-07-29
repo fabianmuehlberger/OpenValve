@@ -1,7 +1,7 @@
 # smartValve
 open source smarthome radiator thermostat
 <p align="center">
-<img src="/pictures/assambly.png" height = 200>
+<img src="/pictures/openValve_Prototype.jpg" height = 200>
 <img src="/pictures/assambly_cut.png" height = 200>
 </p>
 
