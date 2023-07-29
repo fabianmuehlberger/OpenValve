@@ -1,8 +1,7 @@
 # smartValve
 open source smarthome radiator thermostat
 <p align="center">
-<img src="/pictures/openValve_Prototype.jpg" height = 200>
-<img src="/pictures/assambly_cut.png" height = 200>
+<img src="/pictures/openValve_Prototype.jpg" height = 400>
 </p>
 
 This project has the goal of developing a open source smarthome valve for radiators. 
@@ -24,6 +23,7 @@ This project has the goal of developing a open source smarthome valve for radiat
 The generall idea is to make the mechanical assambly and the program as simple as possible to make it acessible and easy to work with. This is the premise for all design dicisions   
 <p align="center">
 <img src="/pictures/printed_parts.png" height = 200>
+<img src="/pictures/assambly_cut.png" height = 200>
 </p>   
 A union nut attaches the assambly to the valve itself. 
 The U shaped hanger keeps the motor from rotating, this creates friction and a better solution for it is prefered. 
