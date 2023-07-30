@@ -52,7 +52,7 @@ With the use of a DC motor running on low voltage, a high reduction gearbox is n
 (n20 gearbox Motor with m3 shaft)
 Using this kind of shaft allows the use of a m3 embedded brass nut in the 3d print to convert the rotation to linear motion. 
 
-### 3D printed pars
+### 3D printed parts
 OpenValve is designed to have 3d printed parts that are printable with a standard FTM printer with no supports and assembled with m3 bolts and buts.    
 
 [Fusion360_project](https://a360.co/473V7g9)
