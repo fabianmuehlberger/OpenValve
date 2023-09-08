@@ -26,7 +26,7 @@ This project has the goal of developing an open source smarthome valve for radia
 The general idea is to make the mechanical Assembly and the program as simple as possible, to make it accessible and easy to work with. This is the premise for all design decisions   
 
 <p align="center">
-<img src="/pictures/exploded_view_1.png" height = 400>
+<img src="/pictures/exploded_view_1.png" height = 200>
 </p>
 
 ### Radiator Valve 
@@ -50,7 +50,7 @@ OpenValve is designed to have 3d printed parts that are printable with a standar
 </p>
 
 <p align="center">
-<img src="/pictures/assembled_1.jpg" height = 400>
+<img src="/pictures/assembled_1.jpg" height = 200>
 </p>
 
 
