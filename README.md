@@ -1,7 +1,8 @@
 # SmartValve
 open source smarthome radiator thermostat
+
 <p align="center">
-<img src="/pictures/openValve_Prototype.jpg" height = 400>
+<img src="/pictures/assenmbled_1.png" height = 400>
 </p>
 
 This project has the goal of developing an open source smarthome valve for radiators. 
@@ -14,19 +15,19 @@ This project has the goal of developing an open source smarthome valve for radia
 
 
 ##  COMPONENTS
-* [MCU](https://www.lilygo.cc/products/t-qt-pro) ESP32S3, currently using a Lilygo TQ-T Pro (ESP32-S3 4mb flash 2 MB psram)
-* [Motor](https://www.adafruit.com/product/4641) Adafruit N20 DC Motor with encoder 
-* [Driver](https://www.pololu.com/product/2990) - Polulu DRV8838
-* Gearbox - 298:1 gearbox with m3 threaded shaft, bought from AliExpress
+* Linear Stepper Motor for smart radiator valve
+* 3D printed parts
+* PCB 
+  * ESP32 based board (esp32-c6 or esp32-c3)
+  * stepper driver TMC 2300 
+  * Battery management/ voltage regulator
 
 ## Mechanical design
 The general idea is to make the mechanical Assembly and the program as simple as possible, to make it accessible and easy to work with. This is the premise for all design decisions   
+
 <p align="center">
-<img src="/pictures/printed_parts.png" height = 200>
-<img src="/pictures/assambly_cut.png" height = 200>
-</p>   
-A union nut attaches the assembly to the valve itself. 
-The U shaped hanger keeps the motor from rotating, this creates friction and a better solution for it is preferred. 
+<img src="/pictures/exploded_view_1.png" height = 400>
+</p>
 
 ### Radiator Valve 
 <p align="center">
@@ -38,33 +39,40 @@ this sort of valve has a pin with ~2.5mmm travel, this allows for a controlled l
 To make the SmartValve adjustable, a mechanism is needed to control the pin in that region. 
 
 ### Motor / Drive
-Using a n20 DC motor with gearbox has the advantage that they are cheap and generally available. 
-It is possible to use other drivers, but this board from Polulu is cheap, and the current limit is not reached in the first iteration. Advanced features for controlling the motor are not needed, enable and direction is sufficient, which makes the program simple. 
+The current development uses a geared stepper motor with 10:1 ration and a linear travel of ~ 5mm. The stepper is designed for this application.
 
-### Gearbox
-With the use of a DC motor running on low voltage, a high reduction gearbox is needed.   
-
-
-<p align="center">
-<img src="/pictures/n20_motor_with_gearbox.png" height = 200>
-</p>
-
-(n20 gearbox Motor with m3 shaft)
-Using this kind of shaft allows the use of a m3 embedded brass nut in the 3d print to convert the rotation to linear motion. 
 
 ### 3D printed parts
 OpenValve is designed to have 3d printed parts that are printable with a standard FTM printer with no supports and assembled with m3 bolts and buts.    
 
-[Fusion360_project](https://a360.co/473V7g9)
-
-
-
+[OnShape](https://cad.onshape.com/documents/391453e964c4cf36b71477fb/w/96218fe9ab75c37b541d1e8c/e/7027b69015998d7833889829?renderMode=0&uiState=64fb2ffe75317b0599136144https://cad.onshape.com/documents/391453e964c4cf36b71477fb/w/96218fe9ab75c37b541d1e8c/e/7027b69015998d7833889829?renderMode=0&uiState=64fb2ffe75317b0599136144) is used for the projecrt for easy collaboration and versioning.
 
 
 ## SOFTWARE
 * For easy integration in Home Assistant, the project is written in Arduino framework, this makes it possible to compile it as a ESPHome device
 
+## TODO
 
-## STATE
-* First model as a proof of concept, including:
-  * 3D model for 3D printed parts
+### Prove of concept
+- [x] 3D printed parts 
+- [ ] Arduino test sketch
+
+
+### Prototype
+- [ ] PCB design
+  - [ ] Schematic design
+  - [ ] Part selection for PCB
+  - [ ] PCB layout and Design
+  - [ ] PCB ordered
+- [ ] Prototype built
+- [ ] Prototype tested
+- [ ] prototype documentation
+
+### Beta
+- [ ] ESPHome code
+- [ ] Home Assistant integration
+- [ ] Durability test
+- [ ] Beta documentation
+- [ ] power consumption test
+
+
