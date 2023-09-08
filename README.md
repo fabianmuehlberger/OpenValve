@@ -49,11 +49,6 @@ OpenValve is designed to have 3d printed parts that are printable with a standar
 <img src="/pictures/openValve_parts_1.jpg" height = 200>
 </p>
 
-<p align="center">
-<img src="/pictures/assembled_1.png" height = 200>
-</p>
-
-
 [OnShape](https://cad.onshape.com/documents/391453e964c4cf36b71477fb/w/96218fe9ab75c37b541d1e8c/e/7027b69015998d7833889829?renderMode=0&uiState=64fb2ffe75317b0599136144https://cad.onshape.com/documents/391453e964c4cf36b71477fb/w/96218fe9ab75c37b541d1e8c/e/7027b69015998d7833889829?renderMode=0&uiState=64fb2ffe75317b0599136144) is used for the projecrt for easy collaboration and versioning.
 
 
