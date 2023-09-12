@@ -59,14 +59,14 @@ OpenValve is designed to have 3d printed parts that are printable with a standar
 
 ### Prove of concept
 - [x] 3D printed parts 
-- [ ] Arduino test sketch
+- [x] Arduino test sketch
 
 
 ### Prototype
 - [ ] PCB design
-  - [ ] Schematic design
-  - [ ] Part selection for PCB
-  - [ ] PCB layout and Design
+  - [x] Schematic design
+  - [x] Part selection for PCB
+  - [x] PCB layout and Design
   - [ ] PCB ordered
 - [ ] Prototype built
 - [ ] Prototype tested
