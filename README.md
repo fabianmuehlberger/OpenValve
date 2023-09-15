@@ -1,4 +1,4 @@
-# SmartValve
+# OpenValve
 open source smarthome radiator thermostat
 
 <p align="center">
