@@ -67,8 +67,8 @@ OpenValve is designed to have 3d printed parts that are printable with a standar
   - [x] Schematic design
   - [x] Part selection for PCB
   - [x] PCB layout and Design
-  - [ ] PCB ordered
-- [ ] Prototype built
+  - [x] PCB ordered
+- [x] Prototype built
 - [ ] Prototype tested
 - [ ] prototype documentation
 
