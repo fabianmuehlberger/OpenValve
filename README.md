@@ -10,7 +10,7 @@ This project has the goal of developing an open source smarthome valve for radia
 ## IDEA
 * Using “off the shelf” components and 3D printed parts for easy building 
 * keep  the cost at a minimum 
-* allow programming via common environments (Arduino IDE) 
+* allow programming via common environments (ESP-IDF, ESPHome) 
 * integration into smarthome with ESPHome and Home Assistant
 
 
