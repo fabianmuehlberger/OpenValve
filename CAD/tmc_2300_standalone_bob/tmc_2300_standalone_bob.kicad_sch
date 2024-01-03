@@ -2342,7 +2342,7 @@
     (property "Value" "TMC2300" (at 207.01 38.1 0)
       (effects (font (size 0.9906 0.9906)))
     )
-    (property "Footprint" "footprints:QFN20_3x3_TRI" (at 207.01 66.04 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-20-1EP_3x3mm_P0.45mm_EP1.6x1.6mm_ThermalVias" (at 207.01 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 207.01 66.04 0)
