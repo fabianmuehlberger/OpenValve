@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 38,
+    "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -64,11 +64,11 @@
       39,
       40
     ],
-    "visible_layers": "0000099_00000001",
+    "visible_layers": "ffdf8cf_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "tmc_2300_standalone_bob.kicad_prl",
+    "filename": "openValve_pcb.kicad_prl",
     "version": 3
   },
   "project": {
